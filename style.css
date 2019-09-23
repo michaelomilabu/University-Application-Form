@@ -1,0 +1,152 @@
+body{
+    background: rgb(0,212,255);
+ background: linear-gradient(58deg, rgba(0,212,255,1) 30%, rgba(35,77,203,1) 55%, rgba(141,45,162,1) 96%);
+}
+.wholeform{
+    width: 900px;
+    margin:15px auto;
+    border-radius: 10px;
+    background-color:white;
+}
+.head1{
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding:5px;
+}
+.formbody{
+    padding:15px;
+}
+label{
+    font: size 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 10px;
+}
+#name{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:0px 0px 4px 195px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#dob{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 140px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#address{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 30px;
+    height: 80px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+    width:400px;
+    
+}
+.l1{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.l3{
+    margin-left:20px;
+}
+p{
+    margin:4px;
+    font-size: 1.2em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 700;
+}
+
+#mail{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 125px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#number{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 60px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#university{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 160px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#course{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 115px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#year{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 140px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+#CGPA{
+    border: 1px solid rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
+    border-radius:5px;
+    margin:15px 0px 4px 30px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 300;
+}
+.l2{
+    display: flex;
+    align-items: center;
+    margin:10px 0px 10px 20px;
+}
+#submit{
+    border: 1px solid rgb(223, 55, 55);
+    background-color: rgb(223, 55, 55);
+    border-radius:5px;
+    height: 40px;
+    font-size: 1em;
+    font-family:'B612 Mono', monospace;
+    font-weight: 400;
+    color: white;
+    cursor: grab;
+}

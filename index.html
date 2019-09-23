@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title> Application form </title>
+<link rel ="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wholeform">
+      <div class="head1"><h1>APPLICATION FORM</h1></div>
+ <div class="formbody">
+      <form>
+      <p>Personal Information</p>
+     <div class="l1">
+        <label for="name">Applicant's Name</label>
+        <input type="name" name="name" id="name">
+      </div>
+      <div class="l1">
+          <label for="dob">Applicant's Date of Birth</label>
+          <input type="date" name="dob" id="dob">
+      </div>
+      <div class="l1">
+        <label for="address">Applicant's Permanent Home Address:</label>
+        <textarea id="address" name="address" rows="5" cols="30" placeholder="Full Address" required></textarea>
+      </div>
+      <div class="l1">
+         <label for="mail">Applicant's Email Address:</label>
+         <input type="email" name="mail" id="mail" placeholder="example@mail.com">
+     </div>
+     <div class="l1">
+       <label for="number"> Applicant's mobile phone number:</label>
+        <input type="tel" name="number" id="number">
+      </div> 
+         <p>University Information</p>
+      <div class="l1">
+         <label for="university">Applicant's University:</label>
+         <select id="university">
+               <option value="">--Please choose a university</option>
+               <option value="unilag">University of Lagos</option>
+               <option value="ui">University of Ibadan</option>
+               <option value="oau">Obafemi Awolowo University</option>
+               <option value="uniben">University of Benin</option>
+               <option value="funaab">Federal University of Agriculture, Abeokuta</option>
+               <option value="LASU">Lagos State Univeristy</option>
+               <option value="nsukka">University of Nigeria, Nsukka</option>
+         </select>
+      </div>
+      <div class="l1" >
+        <label for="course">Applicant's Course of study:</label>
+        <select id="course">
+                        <option value="">--Please choose a course</option>
+                        <option value="Accounting">Accounting</option>
+                        <option value="Biology">Biology</option>
+                        <option value="Mechanical">Mechanical Engineering</option>
+                        <option value="Electrical">Electrical Engineering</option>
+                        <option value="Agricultural">Agricultural Economics</option>
+                        <option value="French">French</option>
+                        <option value="Banking and Finance">Banking and Finance</option>
+         </select>
+      </div> 
+      <div class="l1">
+         <label for="year">Applicant's year of study</label>
+        <select id="year">
+           <option value="">---Please choose a year</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+         </select>
+      </div>
+      <p>Result Information</p>
+     <div class="l3">
+         <label for ="CGPA">Applicant's CGPA (or Jamb submitted)</label>
+         <input type="text" name="CGPA" id="CGPA">
+      </div>
+      <p>Upload section of form</p>
+      <p>The following should be uploaded (as JPEG scans or MS Word docs)</p>
+      <div class="l2">
+         <label for="passport">Recent Passport Photograph</label>
+         <input type="file" name="passport" id="passport">
+      </div>
+      <div class="l2">  
+        <label for="ssce"> Senior Secondary School Certificate</label>
+        <input type="file" name="ssce" id="ssce">
+      </div> 
+      <div class="l2">
+        <label for="utme">UTME result</label>
+        <input type="file" name="utme" id="utme">
+      </div> 
+      <div class="l2">
+        <label for="jamb">JAMB/University admission letter</label>
+        <input type="file" name="jamb" id="jamb">
+      </div> 
+      <div class="l2">   
+         <label for="transcript">1<sup>st</sup> year Transcript Result showing CGPA</label>
+         <input type="file" name="transcript" id="transcript">
+      </div>
+      <div class="l2"> 
+         <label for = "letter">Two letters of recommendation</label>
+         <input type="file" name="letter" id="letter"><input type="file" name="letter" id="letter">
+      </div>
+      <div class="l2">
+         <label for="probity" >Signed probity statement</label>
+         <input type="file" name="probity" id="probity">
+      </div>
+         <p>Final Section</p>
+      <div class="l2">
+         <label for="info">Attestation that all information given is true</label>
+         <input type="checkbox" name="info" id="info">
+      </div>
+      <div class="l2"> 
+          <label for="terms">Accept terms and conditions</label>
+          <input type="checkbox" name="terms" id="terms">
+      </div>
+      <div class="l2"> 
+          <input type="button" value="Submit Application" id="submit">
+      </div>
+      </form>
+   </div>
+</div>
+</body>
+</html>
